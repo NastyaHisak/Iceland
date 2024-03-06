@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16" href="/img/favicon.png">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+    <link rel="stylesheet" href="/css/hover-min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/cssmagnific-popup.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Iceland.travel</title>
+</head>
+
+<body>
+
+    <header class="header" id="main">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <img src="/img/iceberg.png" alt="">
+                    <span>Iceland.travel</span>
+                </div>
+                <nav class="menu" id="menu">
+                    <div class="close">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 492 492"
+                            style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="list__item"><a class="list__link" href="#description">Об Исландии</a></li>
+                        <li class="list__item"><a class="list__link" href="#program">Программа</a></li>
+                        <li class="list__item"><a class="list__link" href="#reviews">Отзывы</a></li>
+                        <li class="list__item"><a class="list__link" href="#gallery">Фотогалерея</a></li>
+                    </ul>
+                </nav>
+                <div class="burger" id="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px"
+                        height="22px">
+                        <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                            d="M0.000,22.000 L0.000,20.000 L40.000,20.000 L40.000,22.000 L0.000,22.000 ZM0.000,10.000 L40.000,10.000 L40.000,12.000 L0.000,12.000 L0.000,10.000 ZM0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="header__content">
+                <h1 class="header__title">Путешес<span>твие в Исландию</span></h1>
+                <h2 class="header__subtitle">Авторский тур <span>в страну льда</span></h2>
+                <div class="header__trip">
+                    <div class="trip__text">
+                        <div class="place">
+                            Осталось мест <br>
+                            <span>7 мест</span>
+                        </div>
+                        <div class="price">
+                            Стоимость<br>
+                            <span>1700 $</span>
+                        </div>
+                        <div class="date">
+                            Дата<br>
+                            <span>17-24 ноября 2020</span>
+                        </div>
+                    </div>
+                    <svg class="trip__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="302.5px" height="117.5px">
+                        <path fill-rule="evenodd" stroke="rgb(44, 44, 44)" stroke-width="1px" stroke-dasharray="7, 7"
+                            stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                            d="M6.000,105.999 C6.000,105.999 32.989,37.246 71.000,34.999 C71.000,34.999 132.489,8.746 152.000,28.999 C152.000,28.999 165.000,36.746 171.000,57.999 C171.000,57.999 174.989,75.245 190.000,81.999 C190.000,81.999 259.989,125.746 242.000,38.999 C242.000,38.999 233.989,15.746 272.000,27.999 C272.000,27.999 294.489,30.746 298.000,4.999 " />
+                        <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                            d="M3.500,109.999 C5.433,109.999 7.000,111.566 7.000,113.499 C7.000,115.432 5.433,116.998 3.500,116.998 C1.567,116.998 -0.000,115.432 -0.000,113.499 C-0.000,111.566 1.567,109.999 3.500,109.999 Z" />
+                        <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                            d="M85.500,25.999 C87.433,25.999 89.000,27.565 89.000,29.499 C89.000,31.432 87.433,32.999 85.500,32.999 C83.567,32.999 82.000,31.432 82.000,29.499 C82.000,27.565 83.567,25.999 85.500,25.999 Z" />
+                        <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                            d="M298.500,-0.001 C300.433,-0.001 302.000,1.566 302.000,3.498 C302.000,5.432 300.433,6.999 298.500,6.999 C296.567,6.999 295.000,5.432 295.000,3.498 C295.000,1.566 296.567,-0.001 298.500,-0.001 Z" />
+                    </svg>
+                </div>
+                <div class="header__btns">
+                    <a href="#form" class="header__btn btn hvr-sweep-to-right">Забронировать
+                        <img src="/img/next.png" alt="">
+                    </a>
+                    <a href="#wrap" class="video-btn">
+                        <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="31" cy="31" r="30" stroke="white" />
+                            <path d="M37 31.5L28.75 37.1292L28.75 25.8708L37 31.5Z" fill="white" />
+                        </svg>
+                        <span>Смотреть видео</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__hidden">
+                <div class="hidden__inner">
+                    <h2 class="header__hidden-subtitle">Авторский тур в страну льда</h2>
+                    <div class="header__hidden-trip">
+                        <div class="trip__text">
+                            <div class="place">
+                                Осталось мест <br>
+                                <span>7 мест</span>
+                            </div>
+                            <div class="price">
+                                Стоимость<br>
+                                <span>1700 $</span>
+                            </div>
+                            <div class="date">
+                                Дата<br>
+                                <span>17-24 ноября 2020</span>
+                            </div>
+                        </div>
+                        <div class="trip__svg-inner">
+                            <svg class="trip__svg" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path fill-rule="evenodd" stroke="rgb(44, 44, 44)" stroke-width="1px"
+                                    stroke-dasharray="7, 7" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                    d="M6.000,105.999 C6.000,105.999 32.989,37.246 71.000,34.999 C71.000,34.999 132.489,8.746 152.000,28.999 C152.000,28.999 165.000,36.746 171.000,57.999 C171.000,57.999 174.989,75.245 190.000,81.999 C190.000,81.999 259.989,125.746 242.000,38.999 C242.000,38.999 233.989,15.746 272.000,27.999 C272.000,27.999 294.489,30.746 298.000,4.999 " />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M3.500,109.999 C5.433,109.999 7.000,111.566 7.000,113.499 C7.000,115.432 5.433,116.998 3.500,116.998 C1.567,116.998 -0.000,115.432 -0.000,113.499 C-0.000,111.566 1.567,109.999 3.500,109.999 Z" />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M85.500,25.999 C87.433,25.999 89.000,27.565 89.000,29.499 C89.000,31.432 87.433,32.999 85.500,32.999 C83.567,32.999 82.000,31.432 82.000,29.499 C82.000,27.565 83.567,25.999 85.500,25.999 Z" />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M298.500,-0.001 C300.433,-0.001 302.000,1.566 302.000,3.498 C302.000,5.432 300.433,6.999 298.500,6.999 C296.567,6.999 295.000,5.432 295.000,3.498 C295.000,1.566 296.567,-0.001 298.500,-0.001 Z" />
+                            </svg>
+                            <svg class="trip__svg-small" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="227.5px" height="118.5px">
+                                <path fill-rule="evenodd" stroke="rgb(44, 44, 44)" stroke-width="1px"
+                                    stroke-dasharray="7, 7" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                    d="M4.513,108.998 C4.513,108.998 24.814,40.245 53.405,37.998 C53.405,37.998 99.656,11.745 114.332,31.998 C114.332,31.998 124.110,39.745 128.624,60.998 C128.624,60.998 131.624,78.245 142.915,84.998 C142.915,84.998 195.560,128.746 182.029,41.998 C182.029,41.998 176.003,18.745 204.594,30.998 C204.594,30.998 221.510,33.745 224.151,7.998 " />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M2.558,112.999 C3.971,112.999 5.116,114.118 5.116,115.498 C5.116,116.879 3.971,117.998 2.558,117.998 C1.145,117.998 -0.000,116.879 -0.000,115.498 C-0.000,114.118 1.145,112.999 2.558,112.999 Z" />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M65.371,28.999 C66.784,28.999 67.929,30.117 67.929,31.498 C67.929,32.879 66.784,33.999 65.371,33.999 C63.958,33.999 62.813,32.879 62.813,31.498 C62.813,30.117 63.958,28.999 65.371,28.999 Z" />
+                                <path fill-rule="evenodd" fill="rgb(44, 44, 44)"
+                                    d="M224.453,-0.002 C225.865,-0.002 227.011,1.117 227.011,2.498 C227.011,3.879 225.865,4.999 224.453,4.999 C223.040,4.999 221.895,3.879 221.895,2.498 C221.895,1.117 223.040,-0.002 224.453,-0.002 Z" />
+                            </svg>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#form" class="header__hidden-btn btn hvr-sweep-to-right">Забронировать
+                        <img src="/img/next.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="description" id="description">
+            <div class="container">
+                <h3 class="description__title">Страна льда и огня</h3>
+                <div class="description__photo wow animate__fadeInLeft">
+                    <img src="/img/descr.jpg" alt="">
+                </div>
+                <div class="description__content wow animate__fadeInRight">
+                    <h3 class="description__subtitle">Страна льда и огня</h3>
+                    <div class="description__text">Исландия – это изолированный остров на краю Европы, поражающий
+                        невероятными контрастами: кипящие гейзеры и тысячелетние ледники, активные вулканы и ревущие
+                        водопады, скалистые фьорды и живописные национальные парки. Исландии есть чем удивить даже
+                        самого бывалого туриста.</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="advantages">
+            <h2 class="advantages__title title">Почему вы захотите поехать в
+                тур именно с нами
+            </h2>
+            <div class="advantages__inner">
+                <div class="advantages__item">
+                    <div class="advantage__num">1</div>
+                    <div class="advantage__title">Крутая команда</div>
+                    <div class="advantage__text">В каждый тур едет сопровождающий и фотограф, а в каждом городе тебя
+                        ждёт локальный эксперт крутых мест</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantage__num">2</div>
+                    <div class="advantage__title">Свобода действий </div>
+                    <div class="advantage__text">Выбирай только те активности, которые нравятся и наслаждайся свободным
+                        временем в каждой точке </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantage__num">3</div>
+                    <div class="advantage__title">Транспорт</div>
+                    <div class="advantage__text">Мы арендуем 2-3 комфортных внедорожника на которых можно добраться до
+                        труднодоступных и невероятно</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantage__num">4</div>
+                    <div class="advantage__title">Проживание</div>
+                    <div class="advantage__text">Вы будете располагаться в комфортном коттеджном комплексе на западе
+                        острова, включающим 12 уютных</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="uniq">
+            <h2 class="uniq__title title">Уникальные места Исландии</h2>
+            <div class="uniq__inner">
+                <div class="uniq__img wow animate__fadeInLeft">
+                    <img src="/img/island.png" alt="">
+                    <div class="uniq__trip">
+                        <div class="uniq__num">1</div>
+                        <div class="uniq__num">2</div>
+                        <div class="uniq__num">3</div>
+                        <div class="uniq__num">4</div>
+                        <div class="uniq__num">5</div>
+                        <div class="uniq__trip-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="111.5px" height="184.5px">
+                                <path fill-rule="evenodd" stroke="rgb(0, 0, 0)" stroke-width="1px"
+                                    stroke-dasharray="7, 7" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                    d="M1.500,1.499 C1.500,1.499 20.605,41.537 52.500,38.500 C83.928,35.506 77.090,12.009 66.433,17.632 C26.892,38.494 57.349,74.928 62.500,80.499 C67.651,86.071 88.015,102.595 66.500,113.499 C44.985,124.404 20.015,99.595 16.500,123.499 C12.985,147.404 42.349,140.595 46.500,174.499 C50.651,208.404 117.583,133.342 94.596,139.091 C63.300,146.919 81.565,174.091 110.500,178.499 " />
+                            </svg>
+                        </div>
+                        <div class="uniq__trip-svg-adapt">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="67.5px" height="111.5px">
+                                <path fill-rule="evenodd" stroke="rgb(0, 0, 0)" stroke-width="1px"
+                                    stroke-dasharray="7, 7" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                                    d="M1.159,1.103 C1.159,1.103 12.560,24.997 31.594,23.184 C50.349,21.397 46.268,7.376 39.908,10.731 C16.312,23.181 34.487,44.923 37.561,48.248 C40.636,51.573 52.788,61.434 39.948,67.941 C27.109,74.448 12.208,59.644 10.110,73.909 C8.012,88.174 25.536,84.111 28.013,104.344 C30.491,124.577 70.433,79.782 56.715,83.213 C38.039,87.885 48.939,104.101 66.206,106.731 " />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="uniq__content wow animate__fadeInRight">
+                    <div class="uniq__subtitle">Голубая Лагуна</div>
+                    <div class="uniq__text">Один из самых известных и популярных термальных источников Исландии, который
+                        располагается в
+                        40 км от города Рейкьявик.</div>
+                    <div class="uniq__photo">
+                        <img src="/img/island-photo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="wrap">
+            <div class="video">
+                <div class="video__overlay">
+                    <div class="video__play">
+                        <img src="/img/play.png" alt="">
+                        <div class="video-overlay">Посмотрите видео <br> путешествия 2019 года</div>
+                    </div>
+                    <div class="video__poster">
+                        <img src="/img/video-bg.jpg" alt="">
+                    </div>
+                </div>
+                <iframe class="video-iframe" src="https://www.youtube.com/embed/mY-DNmmNpV0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section class="program" id="program">
+            <h2 class="program__title title">Программа тура</h2>
+            <div class="container">
+                <div class="program__inner">
+
+                    <div class="program__slider-img wow animate__fadeInLeft">
+                        <div class="slide-img">
+                            <img src="/img/slider/1.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/2.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/3.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/4.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/5.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/6.jpg" alt="">
+                        </div>
+                        <div class="slide-img">
+                            <img src="/img/slider/7.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="program__content wow animate__fadeInRight">
+                        <div class="program__content-inner">
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 1 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Окунитесь в горячие источники Исландии</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Provident nisi incidunt quasi ipsam consequatur aliquid, veniam cupiditate, corrupti
+                                    alias dignissimos nam ratione a eveniet sequi ab et, amet saepe aut dolor! Quia
+                                    voluptatibus minima doloremque, esse nesciunt corporis accusantium inventore?
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 2 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Проплывем по ущелью</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Doloremque, alias? Rerum aliquam quae enim eum, ex sed voluptates officia
+                                    repudiandae aspernatur quia laboriosam, veniam, provident nemo! Deserunt explicabo
+                                    hic maiores quae.
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 3 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Познакомимся с исландскими овечками</div>
+                                <div class="program__text">Мы отправимся в путешествие по одному из самых необычных
+                                    туристических маршрутов Исландии — Золотому кольцу. Овeчки будут вaшими пocтoянными
+                                    cпутникaми. Ha пoляx и в кeмпингax, в гopныx дoлинax и пpямo пocpeди тpacc — кудa бы
+                                    вы ни пoexaли, вaм будут вcтpeчaтьcя бpoдящиe caми пo ceбe oвeчки c
+                                    бapaшкaми.
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 4 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Погуляем по красочным городам</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Laboriosam repellat placeat architecto accusantium explicabo quidem odit a alias
+                                    suscipit magni veritatis voluptas aliquam, incidunt libero non facilis! Temporibus
+                                    laudantium consequuntur esse necessitatibus facere, consectetur atque eveniet quod
+                                    aliquam doloribus.
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 5 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Полюбуемся на действующий вулкан</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                    ipsa ut optio. Nam hic esse quae ea commodi sint distinctio beatae. Quos perferendis
+                                    eos beatae voluptatibus saepe iusto repudiandae placeat sequi laboriosam rerum
+                                    impedit fuga similique porro expedita nulla aut, repellat excepturi error ducimus
+                                    esse magni optio dicta quod velit. Natus tempore voluptas id quia!
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 6 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Поснимаем с дронов</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Aliquam architecto repellendus tempore omnis eveniet atque quas sint assumenda
+                                    ducimus reprehenderit consequatur velit ipsa dicta, unde rem! Nisi atque culpa
+                                    labore. Minus a exercitationem nulla natus.
+                                </div>
+                            </div>
+                            <div class="program__content-item">
+                                <div class="program__num">
+                                    День 7 <span>/ 7</span>
+                                </div>
+                                <div class="program__subtitle">Отдохнем у теплых источников</div>
+                                <div class="program__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Omnis quibusdam temporibus aliquid fugiat ipsam assumenda, placeat quo quam vel non
+                                    quisquam cum eveniet? Recusandae impedit voluptate laboriosam, dolorum aspernatur
+                                    tempora velit? Vel, quaerat incidunt! Tempora ducimus odit maiores mollitia.
+                                    Dignissimos.
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="/program.pdf" class="program__link">
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" class="bi bi-download">
+                                <path
+                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                <path
+                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                            </svg>
+                            <p>Скачать программу тура</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h2 class="reviews__title title">Отзывы</h2>
+            <div class="container">
+                <div class="reviews__inner wow animate__fadeInUp">
+
+                    <div class="reviews__content">
+
+                        <div class="reviews__content-item">
+                            <div class="reviews__name">Иван</div>
+                            <div class="reviews__rait">10/10</div>
+                            <div class="reviews__text">Хочу сказать организаторам тура огромное спасибо за это шикарное
+                                путешествие! Мы с девушкой давно мечтали побывать в Исландии и благодаря ребятам из
+                                iceland.travel эта страна оставила невероятные впечатления далёкого, но теперь
+                                изведанного края, которые мы запомним надолго!</div>
+                        </div>
+                        <div class="reviews__content-item">
+                            <div class="reviews__name">Виктория</div>
+                            <div class="reviews__rait">9/10</div>
+                            <div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptate facilis, officia pariatur enim quo natus quibusdam quos cum dolore est optio,
+                                assumenda consequuntur placeat modi amet quidem magnam nam illum.</div>
+                        </div>
+                        <div class="reviews__content-item">
+                            <div class="reviews__name">Паша</div>
+                            <div class="reviews__rait">10/10</div>
+                            <div class="reviews__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident sapiente numquam nihil, commodi nulla, modi corporis odio dicta facilis
+                                voluptas eos saepe quas, in deserunt aspernatur velit quos maiores expedita?</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews__slider-img">
+                        <div class="reviews-img">
+                            <img src="/img/reviews/1.jpg" alt="">
+                        </div>
+                        <div class="reviews-img">
+                            <img src="/img/reviews/2.jpg" alt="">
+                        </div>
+                        <div class="reviews-img">
+                            <img src="/img/reviews/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2 class="gallery__title title">Фотогалерея</h2>
+            <div class="container">
+                <div class="gallery__inner wow animate__pulse">
+                    <div class="gallery__item">
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/1.jpg">
+                                <img src="/img/gallery/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/2.jpg">
+                                <img src="/img/gallery/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/3.jpg">
+                                <img src="/img/gallery/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/4.jpg">
+                                <img src="/img/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/5.jpg">
+                                <img src="/img/gallery/5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery__item">
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/1.jpg">
+                                <img src="/img/gallery/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/2.jpg">
+                                <img src="/img/gallery/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/3.jpg">
+                                <img src="/img/gallery/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/4.jpg">
+                                <img src="/img/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/5.jpg">
+                                <img src="/img/gallery/5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery__item">
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/1.jpg">
+                                <img src="/img/gallery/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/2.jpg">
+                                <img src="/img/gallery/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/3.jpg">
+                                <img src="/img/gallery/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/4.jpg">
+                                <img src="/img/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/5.jpg">
+                                <img src="/img/gallery/5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery__item">
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/1.jpg">
+                                <img src="/img/gallery/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/2.jpg">
+                                <img src="/img/gallery/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/3.jpg">
+                                <img src="/img/gallery/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/4.jpg">
+                                <img src="/img/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img">
+                            <a class="popup-link" href="/img/gallery/5.jpg">
+                                <img src="/img/gallery/5.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="gallery__inner-adapt">
+                    <div class="gallery__item-adapt">
+                        <div class="gallery__img-adapt">
+                            <a class="popup-link" href="/img/gallery/1.jpg">
+                                <img src="/img/gallery/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img-adapt">
+                            <a class="popup-link" href="/img/gallery/2.jpg">
+                                <img src="/img/gallery/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img-adapt">
+                            <a class="popup-link" href="/img/gallery/3.jpg">
+                                <img src="/img/gallery/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery__img-adapt">
+                            <a class="popup-link" href="/img/gallery/4.jpg">
+                                <img src="/img/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="form" id="form">
+            <h2 class="form__title title">Забронировать путешествие</h2>
+            <form class="form-inner wow animate__pulse">
+                <label>
+                    <div class="amount__title">Количество человек</div>
+                    <div class="amount__inner">
+                        <div class="radiobtn__item active">
+                            <input class="input__radio input" type="radio" value="1" name="amount"><span
+                                class="radio-style">1</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="2" name="amount"><span
+                                class="radio-style">2</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="3" name="amount"><span
+                                class="radio-style">3</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="4" name="amount"><span
+                                class="radio-style">4</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="5" name="amount"><span
+                                class="radio-style">5</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="6" name="amount"><span
+                                class="radio-style">6</span>
+                        </div>
+                        <div class="radiobtn__item">
+                            <input class="input__radio input" type="radio" value="7" name="amount"><span
+                                class="radio-style">+7</span>
+                        </div>
+                    </div>
+                </label>
+
+                </label>
+                <div class="input__name">
+                    <input class="input__text input" id="name" type="text" placeholder="Ваше имя">
+                    <div class="error-input">Введите Ваше имя</div>
+                </div>
+                <div class="input__phone">
+                    <input class="input__text input" id="phone" type="text" placeholder="Ваш телефон" data-phone-pattern = "+375 (__) ___-__-__">
+                    <div class="error-input">Введите Ваш телефон</div>
+                </div>
+                <button class="form__btn" id="submit" type="button">Отправить заявку</button>
+            </form>
+
+
+            <div class="thanks">
+                <div class="thanks__inner">
+                    <div class="thanks__img">
+                        <img src="/img/iceberg.png" alt="">
+                    </div>
+                    <div class="thanks__title">Спасибо за заявку!</div>
+                    <div class="thanks__text">Ваша заявка принята. В ближайшее время с вами свяжется наш менеджер.</div>
+                    <a class="thanks__btn" href="#">Вернуться на главную</a>
+                    <div class="thanks__cansel">
+                        <img src="/img/cancel.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#">
+                        <img src="/img/footer-logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <svg width="30px" height="30px" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M26.703 18.447s2.425 2.396 3.026 3.504a0.191 0.191 0 0 1 0.027 0.053c0.244 0.41 0.304 0.73 0.184 0.968 -0.203 0.392 -0.888 0.588 -1.121 0.605h-4.287c-0.298 0 -0.919 -0.078 -1.675 -0.6 -0.578 -0.404 -1.152 -1.068 -1.708 -1.718 -0.831 -0.965 -1.549 -1.802 -2.277 -1.802a0.822 0.822 0 0 0 -0.27 0.045c-0.55 0.174 -1.249 0.959 -1.249 3.048 0 0.654 -0.516 1.026 -0.877 1.026H14.511c-0.669 0 -4.152 -0.234 -7.24 -3.49C3.486 16.098 0.087 8.1 0.054 8.029c-0.211 -0.517 0.232 -0.8 0.712 -0.8h4.329c0.581 0 0.77 0.351 0.901 0.666 0.153 0.361 0.72 1.808 1.65 3.432 1.506 2.643 2.431 3.719 3.171 3.719a0.79 0.79 0 0 0 0.396 -0.105c0.966 -0.531 0.786 -3.981 0.741 -4.692 0 -0.138 -0.002 -1.54 -0.497 -2.219 -0.354 -0.486 -0.957 -0.675 -1.321 -0.744 0.098 -0.141 0.304 -0.357 0.57 -0.485 0.661 -0.33 1.857 -0.378 3.043 -0.378h0.658c1.287 0.018 1.62 0.101 2.088 0.219 0.942 0.225 0.96 0.836 0.877 2.915 -0.024 0.594 -0.05 1.263 -0.05 2.05 0 0.168 -0.007 0.355 -0.007 0.546 -0.028 1.067 -0.066 2.268 0.687 2.761a0.615 0.615 0 0 0 0.326 0.093c0.261 0 1.042 0 3.162 -3.637 0.93 -1.607 1.65 -3.501 1.7 -3.643 0.042 -0.08 0.168 -0.303 0.321 -0.393a0.718 0.718 0 0 1 0.354 -0.084h5.093c0.555 0 0.931 0.084 1.005 0.294 0.123 0.341 -0.024 1.38 -2.349 4.524 -0.392 0.523 -0.735 0.977 -1.036 1.373 -2.107 2.766 -2.107 2.905 0.124 5.006z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <svg width="27px" height="27px" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.483 0.087C20.853 0.149 21.8 0.351 22.676 0.691C23.553 1.032 24.217 1.464 24.876 2.124C25.536 2.783 25.968 3.447 26.309 4.324C26.649 5.2 26.851 6.147 26.913 7.517C26.991 9.216 27 9.814 27 13.5C27 17.186 26.991 17.784 26.913 19.483C26.851 20.853 26.649 21.8 26.309 22.676C25.968 23.553 25.536 24.217 24.876 24.876C24.217 25.536 23.553 25.968 22.676 26.309C21.799 26.649 20.853 26.851 19.483 26.913C17.785 26.991 17.186 27 13.5 27C9.814 27 9.215 26.991 7.517 26.913C6.147 26.851 5.201 26.649 4.324 26.309C3.447 25.968 2.783 25.536 2.124 24.876C1.464 24.217 1.032 23.553 0.691 22.676C0.351 21.8 0.149 20.853 0.087 19.483C0.009 17.785 0 17.187 0 13.5C0 9.813 0.009 9.215 0.087 7.517C0.149 6.147 0.351 5.2 0.691 4.324C1.032 3.447 1.464 2.783 2.124 2.124C2.783 1.464 3.447 1.032 4.324 0.691C5.2 0.351 6.147 0.149 7.517 0.087C9.215 0.009 9.813 0 13.5 0C17.187 0 17.785 0.009 19.483 0.087ZM13.5 3C9.855 3 9.297 3.009 7.654 3.084C6.611 3.131 5.984 3.264 5.411 3.487C4.921 3.678 4.609 3.88 4.245 4.245C3.88 4.61 3.678 4.921 3.487 5.411C3.264 5.985 3.131 6.611 3.084 7.654C3.009 9.297 3 9.855 3 13.5C3 17.145 3.009 17.703 3.084 19.346C3.131 20.389 3.264 21.015 3.487 21.589C3.678 22.079 3.88 22.39 4.245 22.755C4.609 23.12 4.921 23.322 5.41 23.512C5.985 23.736 6.611 23.869 7.654 23.916C9.298 23.991 9.856 24 13.5 24C17.144 24 17.702 23.991 19.346 23.916C20.389 23.869 21.015 23.736 21.589 23.513C22.079 23.322 22.391 23.12 22.755 22.755C23.12 22.391 23.322 22.079 23.513 21.589C23.736 21.015 23.869 20.389 23.916 19.346C23.991 17.702 24 17.144 24 13.5C24 9.856 23.991 9.298 23.916 7.654C23.869 6.611 23.736 5.985 23.513 5.411C23.322 4.921 23.12 4.609 22.755 4.245C22.391 3.88 22.079 3.678 21.589 3.487C21.015 3.264 20.389 3.131 19.346 3.084C17.703 3.009 17.145 3 13.5 3ZM13.5 20.5C9.634 20.5 6.5 17.366 6.5 13.5C6.5 9.634 9.634 6.5 13.5 6.5C17.366 6.5 20.5 9.634 20.5 13.5C20.5 17.366 17.366 20.5 13.5 20.5ZM13.5 17.5C15.709 17.5 17.5 15.709 17.5 13.5C17.5 11.291 15.709 9.5 13.5 9.5C11.291 9.5 9.5 11.291 9.5 13.5C9.5 15.709 11.291 17.5 13.5 17.5ZM20.5 8C19.672 8 19 7.328 19 6.5C19 5.672 19.672 5 20.5 5C21.328 5 22 5.672 22 6.5C22 7.328 21.328 8 20.5 8Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <svg width="26px" height="26px" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.309 5.007l-3.433 16.189c-0.259 1.142 -0.934 1.427 -1.894 0.889l-5.231 -3.854 -2.524 2.428c-0.279 0.279 -0.513 0.513 -1.051 0.513l0.376 -5.327 9.694 -8.76c0.422 -0.375 -0.092 -0.584 -0.655 -0.208l-11.984 7.546 -5.159 -1.615c-1.122 -0.35 -1.142 -1.122 0.234 -1.661l20.18 -7.775c0.934 -0.35 1.752 0.208 1.447 1.636z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__phone">
+                    <a href="tel:+375294709788">+ 375 29 47-09-788</a>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script src="/jquery-3.6.2.min.js"></script>
+    <script src="/js/slick.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

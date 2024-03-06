@@ -1,0 +1,13 @@
+<svg id="логотип" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="30" viewBox="0 0 139 30">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        fill: #2c2c2c;
+        font-family: Montserrat;
+      }
+    </style>
+  </defs>
+  <image id="iceberg" width="30" height="30" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAADYElEQVRIibWWW6hVVRSGP0+WimUqiA+SWqJ5OcNDZkgRVFY+6JOIPQSicrwrSnm0vFRvBUlGp4txynrooQcf1CLyoUK8IN7F4Q0VlQI1zVtlN9MTI/99mCz33metnf2w2WuuefnX/Oc/5hgd6uvrKYCewOvAeuDrmObuRea3oa7g+CDtBnwK9K6JUShC3ACMBWYA7wNv/Rfiju303wF8DgwDfgWW6v9NYD8wGviuFuL2zng58BiwB5gIDAZa1fcM8K6U6AfMA95x9xN5iKtJ/bhknayzvQt4JOn/BtgHLAJWA/fEOzPrE51mVmdmA4oSh3s/A6YA54HfgMXaYTrnRWAh0BVoBFYCG8zsXqAF2GVmTUWIRwGrMue3BvhFH1PCGeA14Jy7t7r7e8BaHc1I4CGgycwG5SF+GtgpA2UxX9Km+ADoZWYj9S4+ZCOw191PySctZtahGnGDJK7k9kPaRRvc/XpiwGi3yhtvaMxq/U9L56WujnPaDSyRXLmQ5+Yys4HA5vhodz9TIg7CO4G3pcCCvKQFEeZ8UCa8FpJuAXooFn9QiPwf6BxeAB4GLnVMzuxboFkJIDfyJgkz+wS44O7/mjM1V7Nce9thZmOAR4FXSmunxF8C9+tevt2YHq529z9K62bv6riFwoGzChDXufuNKhIPdvcjt0zKtCPPTpDZ8qLRzLaa2QNlSJ+qFJpZ4osaOKXc4HJw948iPOKmMrOpCendujzmlJtXLi0asE6SV5QwQV9gu9Lkh8BlnekyHcPcSjveotjdpsQf8fE9MC4z9j71ZxEXTou7HwSe1A0V6z0LvFTpa2PHUTt1AcJxZ/V+PDAbGKN29B9VPj6bzO8OHAOGuvv5NsnMIq3+6e5XzayT5kf2upLu+EfgVGbBLyT1ELVn6vzTMcj9a1JSbp77xSBVs1kK7DOzhnTHldSIu7W/QuyoZA4FDqg/KpKTwBPufrzSIpVQrdj7GIj4u6Tr9KDkL5llUviiFlLaIQ5pV6jIe07VZeTjl/XcpHqsJrRX3q7Qr4QNwPPAaeAnYAc3zfQqMEJjIqYb3f3nWndcDqsUq1dVeZYQ9dgmPV+XIlWRJR6uCjPwt2I8RcR6FICRW78qdbj7YSB+uZElDhmjaA/8Lin/yox5oaBKtwL4B/AT+IpKP6BSAAAAAElFTkSuQmCC"/>
+  <text id="Iceland.travel" class="cls-1" x="39.589" y="18.711">Iceland.travel</text>
+</svg>
